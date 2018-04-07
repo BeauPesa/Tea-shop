@@ -1,0 +1,49 @@
+/* UNIVERSAL STYLES */
+
+a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  outline: 1px grey solid;
+  height: 69px;
+}
+
+body {
+  font-family: "Helvetica" , sans-serif;
+  background-color: black;
+}
+
+/* NAVIGATION */
+
+header img {
+ padding-left: 10px;
+ padding-top: 7px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+nav span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px 30px;
+  float: right;
+}
