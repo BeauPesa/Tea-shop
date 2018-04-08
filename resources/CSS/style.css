@@ -18,11 +18,11 @@ body {
 }
 
 h2 {
-  padding-top: 0px;
+  margin-top: 2px;
 }
 
 h4 {
-  margin-bottom: 10px;
+  padding-bottom: 4px;
 }
 /* NAVIGATION */
 
@@ -68,24 +68,55 @@ nav span {
 
 /*BODY*/
 
-.container1 {
+.mastercontainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1400px;
+  background-color: grey;
+
+
+}
+
+/*.container1 {
+  border: 1px #4c88e7 solid;
   z-index: 0;
   width: 1200px;
   height: 700px;
-}
+} */
 
 .heroimage {
-  padding-top: 69px;
+  margin: 0 auto;
+  background-image: url("/Stuff/development projects/codecademyprojects/10.TeaCozy/resources/IMAGES/img-mission-background.jpg");
+  margin-top: 69px;
+  width: 1200px;
+  height: 700px;
+  border: 1px #4c88e7 solid;
+
 }
 
 #titlebar {
-  position: relative;
-  bottom: 450px;
+  margin: 0 auto;
+  position: relavive;
+  margin-top: 300px;
   z-index: 1;
   height: 100px;
   width: 1200px;
   color: white;
   text-align: center;
-  /*border: 1px red solid;*/
+  border: 1px #4c88e7 solid;
+  background-color: #1b2828;
+}
+
+.Teaofmonth {
+  margin:  0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  border: 1px #4c88e7 solid;
+  color: white;
   background-color: #1b2828;
 }
