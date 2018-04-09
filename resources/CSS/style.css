@@ -10,25 +10,47 @@ a:hover {
   color: #4c88e7;
 }
 
+p {
+  color: seashell;
+  text-align: left;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
 body {
   font-family: "Helvetica" , sans-serif;
   font-size: 22px;
   background-color: #1b2828;
-  height: 3000px;
+  height: auto;
+  color: seashell;
+  opacity: 0.9;
 }
 
 h2 {
   margin-top: 2px;
+  margin-bottom
+  color: seashell;
+}
+
+h3 {
+  padding-top: 35px;
+  color: seashell;
 }
 
 h4 {
+  margin-top: 12px;
   padding-bottom: 4px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 /* NAVIGATION */
 
 header {
   z-index: 2;
-  width: 80%;
+  width: 100%;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -73,8 +95,9 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1400px;
-  background-color: grey;
+  width: 1440px;
+  height: auto;
+  background-color: #1b2828;
 
 
 }
@@ -96,7 +119,7 @@ nav span {
 
 }
 
-#titlebar {
+#missionbar {
   margin: 0 auto;
   position: relavive;
   margin-top: 300px;
@@ -115,8 +138,67 @@ nav span {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
   width: 1000px;
   border: 1px #4c88e7 solid;
   color: white;
   background-color: #1b2828;
+}
+
+.Teacontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+#Teas1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 15px;
+  width: 300px;
+  height: 200px;
+  background-color: seashell;
+
+  border: 1px #4c88e7 solid;
+
+}
+
+.locationcontainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  border: 1px #4c88e7 solid;
+  background-image: url(resources/IMAGES/img-locations-background.jpg);
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.locationbox {
+  opacity: 1;
+  margin: 100px 40px;
+  width: 300px;
+  height: 300px;
+  background-color: #1b2828;
+  border: 1px #4c88e7 solid;
+  text-align: center;
+  color: seashell;
+}
+
+.contact {
+  padding-top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: seashell;
 }
