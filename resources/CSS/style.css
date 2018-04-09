@@ -49,6 +49,7 @@ img {
 /* NAVIGATION */
 
 header {
+  margin-top: -.5%;
   z-index: 2;
   width: 100%;
   position: fixed;
@@ -115,20 +116,20 @@ nav span {
   margin-top: 69px;
   width: 1200px;
   height: 700px;
-  border: 1px #4c88e7 solid;
+  /*border: 1px #4c88e7 solid;*/
 
 }
 
 #missionbar {
   margin: 0 auto;
   position: relavive;
-  margin-top: 300px;
+  margin-top: 0px;
   z-index: 1;
   height: 100px;
   width: 1200px;
   color: white;
   text-align: center;
-  border: 1px #4c88e7 solid;
+  /*border: 1px #4c88e7 solid;*/
   background-color: #1b2828;
 }
 
@@ -141,7 +142,7 @@ nav span {
   margin-top: 40px;
   margin-bottom: 40px;
   width: 1000px;
-  border: 1px #4c88e7 solid;
+  /*border: 1px #4c88e7 solid;*/
   color: white;
   background-color: #1b2828;
 }
@@ -165,18 +166,20 @@ nav span {
   height: 200px;
   background-color: seashell;
 
-  border: 1px #4c88e7 solid;
+  /*border: 1px #4c88e7 solid;*/
 
 }
 
 .locationcontainer {
+  background-size: cover;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   width: 1200px;
   height: 500px;
-  border: 1px #4c88e7 solid;
-  background-image: url(resources/IMAGES/img-locations-background.jpg);
+  /*border: 1px #4c88e7 solid;*/
+  background-image: url(../IMAGES/img-locations-background.jpg);
+
 }
 
 .locations {
@@ -191,7 +194,7 @@ nav span {
   width: 300px;
   height: 300px;
   background-color: #1b2828;
-  border: 1px #4c88e7 solid;
+  /*border: 1px #4c88e7 solid;*/
   text-align: center;
   color: seashell;
 }
