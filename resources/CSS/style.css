@@ -49,7 +49,7 @@ img {
 /* NAVIGATION */
 
 header {
-  margin-top: -.5%;
+  margin-top: -1%;
   z-index: 2;
   width: 100%;
   position: fixed;
@@ -112,7 +112,7 @@ nav span {
 
 .heroimage {
   margin: 0 auto;
-  background-image: url("/Stuff/development projects/codecademyprojects/10.TeaCozy/resources/IMAGES/img-mission-background.jpg");
+  background-image: url(../IMAGES/img-mission-background.jpg);
   margin-top: 69px;
   width: 1200px;
   height: 700px;
@@ -172,6 +172,7 @@ nav span {
 
 .locationcontainer {
   background-size: cover;
+  background-position-y: 70%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
