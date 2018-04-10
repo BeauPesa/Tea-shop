@@ -50,6 +50,7 @@ img {
 
 header {
   margin-top: -1%;
+  margin-left: -1%;
   z-index: 2;
   width: 100%;
   position: fixed;
@@ -111,6 +112,8 @@ nav span {
 } */
 
 .heroimage {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   background-image: url(../IMAGES/img-mission-background.jpg);
   margin-top: 69px;
@@ -198,6 +201,11 @@ nav span {
   /*border: 1px #4c88e7 solid;*/
   text-align: center;
   color: seashell;
+}
+
+.locationbox:hover {
+  color: #1b2828;
+  background-color: #4c88e7;
 }
 
 .contact {
